@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+    font-family: monospace;
+    font-style: italic;
+
+}
+body{
+    background:url(img/bg.jpg);
+    background-size: cover;
+}
+.bar{
+    margin-left:100px;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    background: #76def3;
+    text-align: center;
+    color: white;
+    
+}
+.txt{
+    
+    background:rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.lbl{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+}
+.text{
+    border-radius: 10px 10px 10px 10px;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+.btn01{
+    
+    background:rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px 20px 20px 20px;;
+}
+.btn02{
+    background:rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:20px 20px 40px 20px;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 28px;
+    border: none;
+    background: #85f5c6;
+}
+
+.result{
+    background:rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:10px 20px 40px 20px;
+}
